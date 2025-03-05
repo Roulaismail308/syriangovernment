@@ -1,0 +1,29 @@
+
+#president{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+  .president-p{
+    border: 1px solid #009A43; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    gap: 10px;
+  }
+  .im {
+   display: flex;
+    border-radius: 5px;
+    gap: 20px;
+  }
+  .im  img{
+    border: 1px solid #000000;
+    margin: 5px  ;
+    padding: 10px ;
+    border-radius: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+
+  

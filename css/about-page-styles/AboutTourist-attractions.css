@@ -1,0 +1,52 @@
+.tourist-attractions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+  }
+  .tourist-attractions h3{
+    margin: 20px;
+  }
+  .tourist-attractions .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tourist-attractions .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .tourist-attractions .card-img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .tourist-attractions .card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .tourist-attractions.card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  .tourist-attractions.card img {
+    width: 100%;
+    height: 200px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+    object-fit: cover; /* لضبط الصورة بشكل جيد داخل الإطار */
+    border-radius: 10px;
+  }
+  
+ 

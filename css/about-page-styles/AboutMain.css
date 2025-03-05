@@ -1,0 +1,119 @@
+/* Style the tab */
+main .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+main h2{
+    text-align: center;
+    margin: 30px;
+}
+
+/* Style the buttons inside the tab */
+main .tab button {
+  /* background-color: inherit; */
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  background-color:#f2f2f2;
+  color: #009A44;
+  margin: 0px 10px 0px 10px ;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+main .tab button:hover {
+  background-color: #009A44;
+  color: #ccc;
+
+}
+
+/* Style the tab content */
+main .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+/* About Syria */
+
+.National-symbols-Countain{
+  position: relative;
+  padding: auto;
+  margin: auto;
+}
+
+.Paragraph .link{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+.Paragraph .link a{
+  display: flex;
+  text-decoration: none;
+  background-color: #F2F2F2;
+  color:#009A44;
+  font-size: medium;
+  font-weight: bold;
+  padding: 8px 16px 8px 16px;
+  border-radius: 20px;
+  border:1px solid #FCE8EA;
+  margin-top: 50px; 
+}
+
+main ul li  {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  padding: 16px 8px 16px 8px;
+
+}
+main ul li :hover {
+
+border:1px solid #FCE8EA;
+color:#FCE8EA;
+background-color:#009A44 ;
+}
+.Couteinear .Paragraph a{
+  background-color:#009A44 ;
+}
+
+@media (max-width:1000px){
+  main .tab {
+    flex-direction: column;
+  }
+  main .tab button {
+    border-bottom: 1px solid #009A44;
+    cursor: pointer;
+    color: #009A44;
+    margin: 0px 10px 0px 10px ;
+    border-radius: 0;
+  }
+}
+
+@media (max-width:600px){
+  main .tab {
+  flex-direction: column;
+}
+main .tab button {
+  border-bottom: 1px solid #009A44;
+  cursor: pointer;
+  color: #009A44;
+  margin: 0px 10px 0px 10px ;
+  border-radius: 0;
+}}
+
+
+
+
+
+
+

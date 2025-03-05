@@ -1,0 +1,45 @@
+.National-symbols-Countain{
+    margin: 20px;
+}
+/* تنسيق الحاوية الرئيسية */
+.national-symbols {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin: 20px; */
+}
+.national-symbols h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #004d00;
+    margin-bottom: 20px;
+}
+/* تنسيق كل رمز وشرح */
+.symbol {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.symbol h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #004d00;
+}
+.symbol-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border-radius: 8px;
+}
+.symbol p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+.symbol audio{
+   width: 100%;
+   margin: 10px 0;
+}

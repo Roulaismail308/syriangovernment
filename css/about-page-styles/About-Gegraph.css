@@ -1,0 +1,83 @@
+/* تنسيق العنوان الرئيسي */
+.geography-climate p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: right;
+  }
+  .Couteaner-Geog{
+  margin: 20px 20px 40px 20px ;
+  }
+  
+.ServerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 20px;
+  }
+  
+  hr {
+    border: 1px darkgreen dashed;
+  }
+  
+  /* تنسيق الحاوية الأساسية للكارد */
+  .Container-Card-serv {
+    margin: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #009A44;
+    gap: 15px;
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+  
+  /* تنسيق البطاقات */
+  .card {
+    flex: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* تنسيق الصورة داخل الكارد */
+  #bb {
+    float: right;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    width: 40px; /* تحديد حجم الأيقونة */
+    height: 40px; /* تحديد حجم الأيقونة */
+  }
+  
+  /* تنسيق النصوص داخل الكارد */
+  .card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+   /* }
+  #Geography > p{
+  font-size: larger;
+  font-weight: bold;
+  } */
+  /* Geography*/
+  

@@ -1,0 +1,73 @@
+.National-symbols-Countain {
+    margin: 20px;
+
+}
+
+.history-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.history-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.history-card h2 {
+    font-size: 22px;
+    color: #004d00;
+    text-align: center;
+}
+
+.history-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.history-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* التأثير عند التمرير على الكارد */
+.history-card:hover {
+    transform: scale(1.05);
+}
+.Paragraph{
+    border: 1px solid #004d00;
+    border-radius: 20px ;
+    margin: 10px ;
+    padding: 20px ;
+}
+
+.history-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #E94954;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+}
+.history-button:hover {
+    background-color: #E94954;
+}
+.history-button span {
+    margin-left: 8px;
+}

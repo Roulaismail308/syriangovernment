@@ -1,0 +1,184 @@
+main .title {
+    color: #2d6a4f;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+main .main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.M-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.M-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.M-card i {
+    font-size: 2.5em;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+}
+.M-card h2 {
+    font-size: 1.2em;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+}
+.M-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+@media (max-width: 1000px) {
+    .title {
+        font-size: 2em;
+    }
+    .main{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .M-card {
+        padding: 15px;
+    }
+    .M-card i {
+        font-size: 2em;
+    }
+    .M-card h2 {
+        font-size: 1em;
+    }
+    .M-card p {
+        font-size: 0.8em;
+    }
+}
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.8em;
+    }
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .M-card {
+        padding: 10px;
+    }
+    .M-card i {
+        font-size: 1.8em;
+    }
+    .M-card h2 {
+        font-size: 0.9em;
+    }
+    .M-card p {
+        font-size: 0.75em;
+    }
+}
+body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.1s ease-in-out;
+}
+
+.all {
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 270px;
+    margin: 30px 50px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+.imeg {
+    margin-top: 10px;
+    width: 200px;
+    height: 125px;
+    border-radius: 5px;
+    border: 1px #177b42 solid;
+}
+.txt {
+    text-align: center;
+    /* margin-right: 15px; */
+    padding: 10px;
+    font-size: larger;
+    color: #177b42;
+    font-weight: bold;
+}
+.txtt {
+    font-size: small;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.butt {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #2d6a4f;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.butt:hover {
+    background-color: #f3f3f3;
+    color: #2d6a4f;
+    border: 1px solid #2d6a4f;
+}
+
+/* التأثير على الرابط داخل الزر */
+.butt a {
+    text-decoration: none;
+    color: white;
+}
+
+.butt:hover a {
+    color: #2d6a4f;
+}
+
+.header {
+    background-color: #2d6a4f;
+    width: auto;
+    height: 75px;
+    align-items: center;
+    margin: 0;
+    
+}
+
+.tx {
+    padding: 20px;
+    color: white;
+    font-family: 'Scheherazade New', serif;
+    font-size: 30px;
+    /* حجم الخط */
+    font-weight: bold;
+    /* تخانة الخط */
+    
+    text-align: center;
+    /* توسيط النص */
+
+
+}
+.foot{
+    background-color:#2d6a4f;
+    width: auto;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+}
