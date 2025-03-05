@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحكومة السورية</title>
+    <link rel="shortcut icon" href="maltimedia/logos/2.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normaliz.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+<body dir="rtl" id="top" >
+    <!-- Header section -->
+    <header>
+        <div class="relatev-header">
+            <div class="header-container">
+                <div class="logo">
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+                    <label for="menu-toggle" class="hamburger-menu">☰</label> 
+                    <a href="index.html"><img src="maltimedia/logos/3.png" alt="main-logo"></a>
+                </div>
+                <div class="main-menu">
+                    <div class="social-media-section">
+                        <ul class="social-media">
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
+                            <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i> </a></li>
+                            <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-section">
+                        <div class="pages-list">
+                            <nav>
+                                <ul>
+                                    <li><a href="../index.html">الرئيسية</a></li>
+                                    <li><a href="pages/aboutSy.html">حول سوريا </a></li>
+                                    <li><a href="pages/Governorates.html">المحافظات</a></li>
+                                    <li><a href="pages/Ministries.html">الوزارات</a></li>
+                                    <li><a href="pages/Services.html">الخدمات</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="search-field">
+                            <input type="search" class="search-field" placeholder="بحث ..." >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+                <video autoplay loop muted playsinline>
+                <source src="maltimedia/vedio/sliderViduo.mp4" type="video/mp4">
+                متصفحك لا يدعم تشغيل الفيديو.
+                </video>
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>موقع الحكومة السورية الجديدة</h1>
+                <p>سوريا... أرض الحضارات العريقة، حيث تلتقي جذور التاريخ بعظمة الحاضر، وتحكي آثارها قصة أمجاد لا تُمحى.</p>
+            </div>
+            <button class="control-btn" id="videoControl">
+                <i class="fas fa-pause"></i> <!-- أيقونة الإيقاف الافتراضية -->
+            </button>
+        </div>
+    </header>
+    <!-- main Section -->
+    <main>
+
+        <div class="services-section">
+            <div class="services-main">
+                <h2>الخدمات </h2>
+                <p>تقدّم الوزارات والهيئات الحكومية في سوريا أكثر من 2,000 خدمة، منها العديد من الخدمات الرقمية المتكاملة التي تشمل مختلف القطاعات الحيوية. تهدف هذه الخدمات إلى تسهيل الإجراءات لمختلف فئات المجتمع وتوفير سبل الوصول السريع والمرن للمواطنين عبر منصات إلكترونية متطورة، بما يعزز من كفاءة العمل الحكومي ويُسهم في تحسين تجربة المواطن</p>
+            </div>
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-button active" onclick="showTab('tab1')">الخدمات الرئيسية</button>
+                    <button class="tab-button" onclick="showTab('tab2')">أحدث الخدمات</button>
+                </div>
+                <div class="tab-content" id="tab1">
+                    <div class="card">
+                        <h3>الخدمات المدنية والإدارية
+                        </h3>
+                        <p>تهدف إلى تحسين أداء القطاعات المدنية وتقديم الدعم الإداري لتنمية المجتمع.</p>
+                    </div>
+                    <div class="card">
+                        <h3>الخدمات الصحية
+                        </h3>
+                        <p>تركز على تقديم الرعاية الطبية وتحسين الصحة العامة للسكان.
+                        </p>
+                    </div>
+                    <a href="pages/Services.html">المزيد من الخدمات ...</a>
+                </div>
+                
+                <div class="tab-content" id="tab2" style="display:none;">
+                    <div class="card">
+                        <h3>الخدمات التعليمية
+                        </h3>
+                        <p>تُعنى بتطوير التعليم والمناهج لرفع مستوى المعرفة لدى الأجيال القادمة.
+
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>الخدمات الحكومية الرقمية
+                        </h3>
+                        <p>تسعى لتقديم الخدمات الحكومية عبر الإنترنت لتعزيز الكفاءة وسهولة الوصول.
+
+                        </p>
+                    </div>
+                 
+                    <a href="pages/Services.html">المزيد من الخدمات ...</a>
+                </div>
+            </div>
+            <div class="statistics-section">
+                <div class="statistics-text">
+                    <h2>الإحصائيات في سوريا</h2>
+                    <p>تتمثل الإحصائيات في سوريا في مجموعة من البيانات التي توضح التطورات الاقتصادية والاجتماعية والتقنية في مختلف القطاعات. هذه الإحصائيات تساعد في اتخاذ قرارات مستنيرة من قبل الحكومة والمواطنين.</p>
+                </div>
+                <div class="statistics-cards">
+                    <div class="card">
+                        <i class="fas fa-users"></i>
+                        <h3>عدد السكان</h3>
+                        <p>24 مليون نسمة</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-industry"></i>
+                        <h3>الناتج المحلي الإجمالي</h3>
+                        <p>100 مليار دولار</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-book"></i>
+                        <h3>عدد الطلاب في المدارس</h3>
+                        <p>7 مليون طالب</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="government-section">
+            <div class="government-main">
+                <h2>الحكومة السورية</h2>
+                <p>تمثل الحكومة السورية السلطة التنفيذية في الدولة، وتتولى مسؤولية إدارة شؤون البلاد وفقًا للدستور والقوانين النافذة. تتكون من رئاسة مجلس الوزراء، والوزارات المختلفة، إضافة إلى الهيئات والمجالس العليا التي تعمل على صياغة وتنفيذ السياسات العامة. تسعى الحكومة إلى تحقيق التنمية المستدامة وتعزيز الاستقرار الاقتصادي والاجتماعي من خلال برامج إصلاحية ومبادرات تهدف إلى تحسين جودة الحياة للمواطنين، وتطوير الخدمات العامة، وتعزيز التحول الرقمي في مختلف القطاعات.
+                </p>
+            </div>  
+        
+            <div class="government-details">
+                <!-- قسم المعلومات عن الحاكم الجديد -->
+                <div class="firstsec">
+                    <div class="card governor-card">
+                        <img src="maltimedia/image/images.jpeg" alt="أحمد الشرع">
+                        <h3>أحمد الشرع</h3>
+                        <p>تسلم أحمد الشرع منصب الحاكم الجديد لجمهورية سوريا، واضعًا نصب عينيه تطوير البنية التحتية الرقمية وتحقيق نقلة نوعية في الخدمات الحكومية. يسعى الشرع إلى تعزيز التحول الرقمي وتحسين أداء القطاعات الحكومية بما يخدم المواطنين ويسهّل عليهم الوصول إلى الخدمات بكفاءة وسلاسة</p>
+                        <button class="mor-ditals">
+                            <a href="https://ar.wikipedia.org/wiki/%D8%A3%D8%AD%D9%85%D8%AF_%D8%A7%D9%84%D8%B4%D8%B1%D8%B9">
+                                المزيد عن الرئيس
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <!-- قسم أهم الروابط -->
+                <div class="secoundsec">
+                    <h3>أهم الروابط</h3>
+                    <ul class="important-links">
+                        <li><a href="#">البوابة الرسمية للحكومة السورية</a></li>
+                        <li><a href="#">خدمات السجل المدني</a></li>
+                        <li><a href="#">الخدمات الإلكترونية للوزارات</a></li>
+                        <li><a href="#">بوابة التوظيف الحكومي</a></li>
+                    </ul>
+                </div>
+            </div>          
+        </div>
+        <!-- ========= -->
+        <div class="Social-solidarity-section">
+            <div class="Social-solidarity-main">
+                <h2>تكافل اجتماعي </h2>
+                <p>تقدّم الوزارات والهيئات الحكومية في سوريا أكثر من 2,000 خدمة، منها العديد من الخدمات الرقمية المتكاملة التي تشمل مختلف القطاعات الحيوية. تهدف هذه الخدمات إلى تسهيل الإجراءات لمختلف فئات المجتمع وتوفير سبل الوصول السريع والمرن للمواطنين عبر منصات إلكترونية متطورة، بما يعزز من كفاءة العمل الحكومي ويُسهم في تحسين تجربة المواطن</p>
+            </div>
+            <div class="App-section">
+                <div class="App-cards">
+                    <!-- كارت المسنين -->
+                    <div class="card">
+                        <i class="fas fa-user-alt"></i>
+                        <div class="card-title">المسنين</div>
+                        <div class="card-text">رعاية المسنين واجب إنساني يعزز قيم الرحمة والوفاء.</div>
+                    </div>
+            
+                    <!-- كارت الأطفال -->
+                    <div class="card">
+                        <i class="fas fa-child"></i>
+                        <div class="card-title">الأطفال</div>
+                        <div class="card-text">مستقبل المجتمع يعتمد على رعاية الأطفال وتعليمهم.</div>
+                    </div>
+            
+                    <!-- كارت الشباب -->
+                    <div class="card">
+                        <i class="fas fa-user-graduate"></i>
+                        <div class="card-title">الشباب</div>
+                        <div class="card-text">الشباب هم عماد الأمة، وبسواعدهم تُبنى الأوطان.</div>
+                    </div>
+            
+                    <!-- كارت ذوي الإعاقة -->
+                    <div class="card">
+                        <i class="fas fa-wheelchair"></i>
+                        <div class="card-title">ذوي الإعاقة</div>
+                        <div class="card-text">تكافؤ الفرص هو مفتاح نجاح ذوي الهمم في المجتمع.</div>
+                    </div>
+            
+                    <!-- كارت المرأة -->
+                    <div class="card">
+                        <i class="fas fa-female"></i>
+                        <div class="card-title">المرأة</div>
+                        <div class="card-text">تمكين المرأة هو أساس لتقدم المجتمعات وازدهارها.</div>
+                    </div>
+
+                    <div class="install-app-section">
+                        
+                        <div class="install-app-text-div">
+                            <!-- العمود الأول -->
+                            <div class="column">
+                                <!-- الكتلة الأولى -->
+                                <div class="block">
+                                    <p>بوابتك الشاملة للوصول إلى جميع المعلومات والخدمات التي تحتاجها
+                                        حمّل الآن </p>
+                                </div>
+                    
+                                <!-- الكتلة الثانية -->
+                                <div class="block">
+                                    <div class="title">احصل على التطبيق </div>
+                                    <div class="images">
+                                        <img src="maltimedia/image/google play App.png" alt="صورة 1">
+                                        <img src="maltimedia/image/apple App.png" alt="صورة 2">
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <!-- العمود الثاني -->
+                            <div class="column-2">
+                                <img src="maltimedia/image/mobilApp.png" alt="صورة 1">    
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="sy-map">
+            <h3>عن سوريا</h3>
+            <p>سوريا بلد يتمتع بتاريخ عريق وثقافة غنية، وهو موطن للحضارات القديمة والشراكات العالمية.</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355378.891023664!2d41.64323629402979!3d34.7873906581411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x877546f4882af620!2z2LPZiNix2YrYpw!5e0!3m2!1sar!2s!4v1741033291876!5m2!1sar!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </main>
+    
+    <br> 
+    <!-- footer Section-->
+    <footer>
+            <!-- القسم الأول -->
+    <div class="footer-top">
+        <div class="column about">
+            <h3>عن سوريا</h3>
+            <p>سوريا بلد يتمتع بتاريخ عريق وثقافة غنية، وهو موطن للحضارات القديمة والشراكات العالمية.</p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355378.891023664!2d41.64323629402979!3d34.7873906581411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x877546f4882af620!2z2LPZiNix2YrYpw!5e0!3m2!1sar!2s!4v1741033291876!5m2!1sar!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="column links">
+            <h3>روابط سريعة</h3>
+            <ul>
+                <li><a href="../index.html">الرئيسية</a></li>
+                <li><a href="pages/aboutSy.html">حول سوريا </a></li>
+                <li><a href="pages/Governorates.html">المحافظات</a></li>
+                <li><a href="pages/Ministries.html">الوزارات</a></li>
+                <li><a href="pages/Services.html">الخدمات</a></li>
+            </ul>
+        </div>
+        <div class="column social">
+            <h3>تابعنا</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <img src="maltimedia/image/flag.jpg" alt="شريك" class="partner-logo">
+        </div>
+        <div class="column logo">
+            <a href="index.html"><img src="maltimedia/logos/3.png" alt="الشعار" class="footer-logo"></a>
+            
+        </div>
+    </div>
+
+    <!-- القسم الثاني -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 جميع الحقوق محفوظة - الحكومة السورية</p>
+    </div>        
+    </footer>
+    <script src="javascript/main.js"></script>
+</body>
+</html>
